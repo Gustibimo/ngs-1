@@ -9,7 +9,7 @@
 
 `pip install pyTelegramBotAPI requests`
 
-### How int works
+### How it works
 
 Terdapat kode untuk pertemuan2 yaitu:
 
