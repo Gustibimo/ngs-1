@@ -15,8 +15,7 @@ def greet():
     sentence = ["halo, ada yg bisa saya bantu", "Selamat datang", 
     "Pagi Kak, apa kabar?","Assalamualaikum Kak", "Hola, amigos" ]
     r = random.randint(0,len(sentence)-1)
-    return """--- Bot sholih :)
-    """ + sentence[r] + "\n----"
+    return sentence[r]
 
 import datetime
 def remind(user_time):
