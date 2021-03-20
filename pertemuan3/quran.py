@@ -6,15 +6,6 @@ import telebot
 from surahlist import generate_surah_list
 from response import bot_response, sample_response
 
-# def get_ayat(nomor_surah, nomor_ayat):
-#     url = "https://api.quran.sutanlab.id/surah/{surah_no}/{ayat_no}"
-#     req = requests.get(url.format(surah_no=nomor_surah, ayat_no=nomor_ayat))
-#     response = req.json()
-#     ayat_arab = response["data"]["text"]["arab"]
-#     return ayat_arab
-
-# print(get_surah(1))
-
 bot_token="1677750958:AAGkyaMLP5_nBnv1MOJYCbqkMInxd1R3rZ0"
 bot = telebot.TeleBot(token=bot_token)
 

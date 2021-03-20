@@ -29,3 +29,12 @@ def get_asbabun_nuzul_surah(nama_surat):
     response = req.json()
     asbab = response["data"]["tafsir"]
     return asbab["id"]
+
+# def get_ayat(nomor_surah, nomor_ayat):
+#     url = "https://api.quran.sutanlab.id/surah/{surah_no}/{ayat_no}"
+#     req = requests.get(url.format(surah_no=nomor_surah, ayat_no=nomor_ayat))
+#     response = req.json()
+#     ayat_arab = response["data"]["text"]["arab"]
+#     return ayat_arab
+
+# print(get_surah(1))

@@ -7,14 +7,11 @@ def bot_response(msg):
     
     command = query[0]
     nomor_ayat = query[1]
-    nama_surat = query[1:len(query)]
 
     if command in ("surah"):
         return get_surah(nomor_ayat)
     if command in ("asbabun-nuzul"):
         return get_asbabun_nuzul(nomor_ayat)
-    if command in ("asbabun-nuzul surah"):
-        return get_asbabun_nuzul(nama_surat)
     else:
         return "Afwan"
 
